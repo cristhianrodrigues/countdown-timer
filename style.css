@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --black: #4D4C59;
+    --purple: #6C63FF;
+    --light-grey: #C8C8C8;
+    --text-color: #9C9AB6;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    background-image: url(./images/images/rocket.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.coming-soon-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    color:var(--purple);
+    font-size: 2.5rem;
+    letter-spacing: 0.35rem;
+}
+
+.contagem-regressiva {
+    display: flex;
+}
+
+.unidade-de-tempo {
+    display: flex;
+    flex-direction: column;
+    width: 6rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.tipo-de-unidade-de-tempo {
+    color: var(--light-grey);
+    font-size: 0.9rem;
+    font-weight: 300;
+    padding: 2rem 0 0rem 0;
+}
+
+.container-numero-regressivo {
+    display: flex;
+}
+
+.numero-regressivo {
+    font-size: 4rem;
+    font-weight: 400;
+    color: var(--black);
+}
+
+.coluna-divisoria-das-unidade-de-tempo {
+    display: flex;
+    align-items: flex-end;
+    font-size: 4rem;
+    color: var(--black);
+    padding: 0 0.3rem;
+}
+
+.saiba-mais {
+    color: var(--text-color);
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding: 1.7rem 0;
+}
+
+.botao-inscreva-se {
+    color: var(--light-grey);
+    background-color: var(--purple);
+    font-size: 1rem;
+    padding: 0.7rem 1.7rem;
+    border: none;
+    border-radius: 0.7rem;
+    cursor: pointer;
+}
+

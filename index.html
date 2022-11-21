@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <title>Countdown Timer</title>
+
+</head>
+<body>
+    <section class="coming-soon-info">
+        <h1 class="titulo">READY TO LAUNCH IN...</h1>
+        <div class="contagem-regressiva">
+            <div class="dias unidade-de-tempo">
+                <p class="tipo-de-unidade-de-tempo">Dias</p>
+                <div class="container-numero-regressivo">
+                    <h2 id="dias" class="numero-regressivo">00</h2>
+                </div>
+            </div>
+            <div class="coluna-divisoria-das-unidade-de-tempo">
+                <span class="divisor">:</span>
+            </div>
+            <div class="horas unidade-de-tempo">
+                <p class="tipo-de-unidade-de-tempo">Horas</p>
+                <div class="container-numero-regressivo">
+                    <h2 id="horas" class="numero-regressivo">00</h2>
+                </div>
+            </div>
+            <div class="coluna-divisoria-das-unidade-de-tempo">
+                <span class="divisor">:</span>
+            </div>
+            <div class="minutos unidade-de-tempo">
+                <p class="tipo-de-unidade-de-tempo">Minutos</p>
+                <div class="container-numero-regressivo">
+                    <h2 id="minutos" class="numero-regressivo">00</h2>
+                </div>
+            </div>
+            <div class="coluna-divisoria-das-unidade-de-tempo">
+                <span class="divisor">:</span>
+            </div>
+            <div class="segundos unidade-de-tempo">
+                <p class="tipo-de-unidade-de-tempo">segundos</p>
+                <div class="container-numero-regressivo">
+                    <h2 class="numero-regressivo" id="segundos">00</h2>
+                </div>
+            </div>
+        </div>
+        <p class="saiba-mais">Inscreva-se para sabermais sobre o lançamento</p>
+        <button class="botao-inscreva-se">Inscreva-se</button>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
